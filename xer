@@ -47,7 +47,7 @@ def load_file(fname, encoding):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
-        description='Compute useful transcription metrics (CER, WER, SER, ...)')
+        description='Compute useful evaluation metrics (CER, WER, SER, ...)')
     parser.add_argument(
         '-r', '--reference', type=str, metavar='REF', default=None,
         help='reference sentence or file')
